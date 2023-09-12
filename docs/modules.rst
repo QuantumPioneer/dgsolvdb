@@ -1,10 +1,10 @@
-blank-python-project
+dgsolvdb
 ====================
 
 .. toctree::
    :maxdepth: 4
 
-   blankpythonproject
+   dgsolvdb
    setup
    start_project
    test

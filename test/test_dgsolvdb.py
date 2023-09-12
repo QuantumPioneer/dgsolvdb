@@ -2,12 +2,12 @@ import os
 import sys
 import unittest
 
-# from blankpythonproject import blankpythonproject
+# from dgsolvdb import dgsolvdb
 
 
-class Test_blankpythonproject(unittest.TestCase):
+class Test_dgsolvdb(unittest.TestCase):
     """
-    Test the various functionalities of blankpythonproject.
+    Test the various functionalities of dgsolvdb.
     """
 
     @classmethod
