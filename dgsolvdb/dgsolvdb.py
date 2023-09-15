@@ -27,6 +27,12 @@ def _decompress_database():
 # attempt to connect to the database here, to cause the first download to occur
 # on import time
 
+# TODO: add support for writing into the database, especially additional features for each solvent/solute
+# TODO: also include the INCHI string for each solvent and solute to facilitate lookup
+# TODO: add get_all_solvents_for_solute
+# TODO: add the scaffolds and key functional groups for each entry
+
+# database architecture: solute table, solvent table, temperature table, and the big dgsolv table
 
 class dgsolvdb:
     def __init__(self):
